@@ -15,7 +15,9 @@ const props = defineProps({
 })
 const emit = defineEmits(['viewSwitch'])
 const changeNumber=(e)=>{
-  emit('viewSwitch',e)
+  // emit('viewSwitch',e)
+  //我修改了一个内容
+  emit("viewSwitch",e)
 }
 </script>
 
